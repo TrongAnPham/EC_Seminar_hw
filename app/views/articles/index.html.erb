@@ -1,8 +1,8 @@
-<h1>Listing Articles</h1>
- <%= link_to 'New Article', new_article_path %>
+<h1>Listing articles</h1>
+ <%= link_to 'Bài viết mới', new_article_path %>
 <table>
   <tr>
-    <th>Tittle</th>
+    <th>Title</th>
     <th>Text</th>
   </tr>
  
@@ -10,11 +10,11 @@
     <tr>
       <td><%= article.title %></td>
       <td><%= article.text %></td>
-      <td><%= link_to 'Show', article_path(article) %></td>
-      <td><%= link_to 'Edit', edit_article_path(article) %></td>
-      <td><%= link_to 'Delete', article_path(article),
+      <td><%= link_to 'Xem', article_path(article) %></td>
+      <td><%= link_to 'Thay đổi', edit_article_path(article) %></td>
+      <td><%= link_to 'Xóa', article_path(article),
               method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
+              data: { confirm: 'Bạn có chắc là muốn xóa bài viết chứ?' } %></td>
     </tr>
   <% end %>
 </table>
