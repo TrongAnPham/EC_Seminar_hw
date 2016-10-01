@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: EC_Seminar_hw_development
+  username: postgres
+  password: 1
+  host: localhost
+  port: 5432
+
+test:
+  <<: *default
+  database: EC_Seminar_hw_test
+
+production:
+  <<: *default
+  database: EC_Seminar_hw_production
+  username: postgres
+  password: 1
