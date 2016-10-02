@@ -1,4 +1,4 @@
-# Homework 1 - *EC_Seminar_hw*
+﻿# Homework 1 - *EC_Seminar_hw*
 
 **EC_Seminar_hw** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
@@ -13,7 +13,7 @@ Danh sách chức năng **bắt buộc**:
 * [x] Người dùng có thể tạo bài blog mới.
 * [x] Người dùng có thể cập nhật lại nội dung bài blog.
 * [x] Người dùng có thể thêm comment vào các bài đăng.
-* [ ] Sử dụng bootstrap để tạo layout cho trang web. Sử dụng [Bootstrap](https://rubygems.org/gems/bootstrap/versions/4.0.0.alpha3).
+* [x] Sử dụng bootstrap để tạo layout cho trang web. Sử dụng [Bootstrap](https://rubygems.org/gems/bootstrap/versions/4.0.0.alpha3).
 * [ ] Bài đăng sẽ được format bằng markdown. Sử dụng [RedCarpet gem](https://github.com/vmg/redcarpet).
 
 Danh sách chức năng **phụ**:
